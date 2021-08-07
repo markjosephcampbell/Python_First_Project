@@ -7,7 +7,7 @@ You've made it! It's time to put away the Excel sheet and join the big leagues. 
 
 ## Before You Begin
 
-1. Create a new GitHub repo called python-homework. Then, clone it to your computer.
+1. Create a new GitHub repo called `python-homework.` Then, clone it to your computer.
 
 2. In your local git repository, create a directory for both of the Python activities. Use folder names that correspond to the activities: **PyBank** and **PyRamen**.
 
