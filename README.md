@@ -195,7 +195,7 @@ vegetarian curry + king trumpet mushroom ramen {'01-count': 8824, '02-revenue': 
 
 ### Coding Conventions and Formatting (10 points)
 
-*To receive all points, your code must:*
+**To receive all points, your code must:**
 
 - Place imports at the beginning of the file, just after any module comments and docstrings and before module globals and constants. (3 points)
 - Name functions and variables with lowercase characters and with words separated by underscores. (2 points)
@@ -204,13 +204,13 @@ vegetarian curry + king trumpet mushroom ramen {'01-count': 8824, '02-revenue': 
 
 ### Deployment and Submission (10 points)
 
-*To receive all points, you must:*
+**To receive all points, you must:**
 
 - Submit a link to a GitHub repository that’s cloned to your local machine and contains your files. (5 points)
 - Include appropriate commit messages in your files. (5 points)
 
 ### Code Comments (10 points)
 
-*To receive all points, your code must:*
+**To receive all points, your code must:**
 
 Be well commented with concise, relevant notes that other developers can understand. (10 points)
