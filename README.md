@@ -143,11 +143,11 @@ vegetarian curry + king trumpet mushroom ramen {'01-count': 8824, '02-revenue': 
 
 ### Resources
 
-[Stack Overflow:](https://stackoverflow.com/)A wealth of community-driven questions and answers, particularly effective for IT solution seekers.
+[Stack Overflow:](https://stackoverflow.com/) A wealth of community-driven questions and answers, particularly effective for IT solution seekers.
 
 [Python Basics:](https://pythonbasics.org/) Contains example materials and exercises for the Python 3 programming language.
 
-Python Documentation: Official Python documentation
+[Python Documentation:](https://docs.python.org/3/) Official Python documentation
 
 ### Hints and Considerations
 
