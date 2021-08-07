@@ -149,7 +149,7 @@ Python Basics: Contains example materials and exercises for the Python 3 program
 
 Python Documentation: Official Python documentation
 
-Hints and Considerations
+### Hints and Considerations
 
 Consider what we've learned so far. To date, we've learned how to import modules like csv; to read and write files in various formats; to store contents in variables, lists, and dictionaries; to iterate through basic data structures; and to debug along the way. Using what we've learned, try to break down you tasks into discrete mini-objectives. This will be a much better course of action than attempting to Google search for a miracle.
 
@@ -163,13 +163,13 @@ Start early, and reach out for help often! Challenge yourself to identify specif
 
 Always commit your work (and do it often!) and back it up with GitHub pushes. You don't want to lose hours of your work because you didn't push it to GitHub every half hour or so.
 
-Submission
+### Submission
 
 Upload homework files to your GitHub repo.
 
 Submit the link to your GitHub repo on Bootcamp Spot.
 
-Requirements
+### Requirements
 
 Set Up Project  (35 points)
 
