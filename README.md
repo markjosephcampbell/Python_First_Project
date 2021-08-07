@@ -213,4 +213,4 @@ vegetarian curry + king trumpet mushroom ramen {'01-count': 8824, '02-revenue': 
 
 **To receive all points, your code must:**
 
-Be well commented with concise, relevant notes that other developers can understand. (10 points)
+- Be well commented with concise, relevant notes that other developers can understand. (10 points)
