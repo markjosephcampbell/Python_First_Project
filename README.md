@@ -61,6 +61,7 @@ In this homework assignment, you will need to:
 
 2. Manipulate the Data
 
+---
 Instructions
 
 Read the Data 
