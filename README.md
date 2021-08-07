@@ -104,6 +104,7 @@ Complete the following:
     - Menu_Item
 
   - Perform a quick check if the sales_item is already included in the report. If not, initialize the key-value pairs for the particular sales_item in the report. Then, set the sales_item as a new key to the report dictionary and the values as a nested dictionary containing the following:
+  
 {
 "01-count": 0,
 "02-revenue": 0,
@@ -111,25 +112,26 @@ Complete the following:
 "04-profit": 0,
 }
 
-Create a nested loop by looping through every record in menu.
+ - Create a nested loop by looping through every record in menu.
 
-For each row of the menu data, set the following columns of the menu data to their own variables:
+  - For each row of the menu data, set the following columns of the menu data to their own variables:
 
-Item
-Price
-Cost
+    - Item
+    - Price
+    - Cost
 
-If the sales_item in sales is equal to the item in menu, capture the quantity from the sales data and the price and cost from the menu data to calculate the profit for each item.
+  - If the sales_item in sales is equal to the item in menu, capture the quantity from the sales data and the price and cost from the menu data to calculate the profit for each item.
 
-Cumulatively add the values to the corresponding metrics in the report like so:
+    - Cumulatively add the values to the corresponding metrics in the report like so:
+    
 report[sales_item]["01-count"] += quantity
 report[sales_item]["02-revenue"] += price * quantity
 report[sales_item]["03-cogs"] += cost * quantity
 report[sales_item]["04-profit"] += profit * quantity
 
-Else print the message "{sales_item} does not equal {item}! NO MATCH!".
+    - Else print the message "{sales_item} does not equal {item}! NO MATCH!".
 
-Write out the contents of the report dictionary to a text file. The report should output each ramen type as the keys and 01-count, 02-revenue, 03-cogs, and 04-profit metrics as the values for every ramen type as shown:
+- Write out the contents of the report dictionary to a text file. The report should output each ramen type as the keys and 01-count, 02-revenue, 03-cogs, and 04-profit metrics as the values for every ramen type as shown:
 spicy miso ramen {'01-count': 9238, '02-revenue': 110856.0, '03-cogs': 46190.0, '04-profit': 64666.0}
 tori paitan ramen {'01-count': 9156, '02-revenue': 119028.0, '03-cogs': 54936.0, '04-profit': 64092.0}
 truffle butter ramen {'01-count': 8982, '02-revenue': 125748.0, '03-cogs': 62874.0, '04-profit': 62874.0}
