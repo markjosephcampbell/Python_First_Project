@@ -62,13 +62,13 @@ In this homework assignment, you will need to:
 2. Manipulate the Data
 
 ---
-Instructions
+## Instructions
 
 ---
 
-Read the Data 
+### Read the Data 
 
-### Complete the following:
+Complete the following:
 
 - Read in menu_data.csv and set its contents to a separate list object. (This way, you can cross-reference your menu data with your sales data as you read in your sales data in the coming steps.)
 
