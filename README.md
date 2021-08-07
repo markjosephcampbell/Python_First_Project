@@ -1,7 +1,7 @@
-# python-homework
-Unit 2 | Homework Assignment: Automate Your Day Job with Python
+# Python Homework
+## Unit 2 | Homework Assignment: Automate Your Day Job with Python
 
-Background
+### Background
 You've made it! It's time to put away the Excel sheet and join the big leagues. Welcome to the world of programming with Python. In this homework assignment, you'll be using the concepts you've learned to complete the required PyBank Python activity, and if you wish to stretch your skills even further, the optional PyRamen Python activity. Both activities present a real-world situation in which your newfound Python skills will come in handy. These activities are far from easy, though, so expect some hard work ahead!
 
 Before You Begin
@@ -14,7 +14,7 @@ In each folder you just created, add a new file called main.ipynb. Remember that
 
 Push the above changes to GitHub.
 
-PyBank (Required)
+## PyBank (Required)
 
 In this activity, you are tasked with creating a Python script for analyzing the financial records of your company. You will be provided with a financial dataset in this file: budget_data.csv. This dataset is composed of two columns, Date and Profit/Losses. (Thankfully, your company has rather lax standards for accounting, so the records are simple.)
 Your task is to create a Python script that analyzes the records to calculate each of the following:
@@ -32,7 +32,7 @@ The greatest decrease in losses (date and amount) over the entire period.
 
 Your resulting analysis should look similar to the following:
 
-Financial Analysis
+# Financial Analysis
 
 ----------------------------
 Total Months: 86
@@ -47,9 +47,9 @@ Greatest Decrease in Profits: Sep-2013 ($-2196167)
 
 Your final script should print the analysis to the terminal and export a text file with the results.
 
-PyRamen (Optional)
+## PyRamen (Optional)
 
-Background
+### Background
 Welcome to Ichiban Ramen!
 Opening a ramen shop has always been your dream, and now it's finally been realized––you're closing out on your second year of sales! Like last year, you need to analyze your business's financial performance by cross-referencing your sales data with your internal menu data to figure out revenues and costs for the year.
 This year, you also want to analyze how well your business did on a per-product basis (as you have several choices of ramen) in order to better understand which products are doing well, which are doing poorly, and, ultimately, which products may need to be removed or changed.
@@ -63,8 +63,9 @@ Manipulate the Data
 
 Instructions
 
-Read the Data
-Complete the following:
+Read the Data 
+
+### Complete the following:
 
 Read in menu_data.csv and set its contents to a separate list object. (This way, you can cross-reference your menu data with your sales data as you read in your sales data in the coming steps.)
 
@@ -81,7 +82,8 @@ Loop over the rest of the rows and append every row to the menu list object (the
 Set up the same process to read in sales_data.csv. However, instead append every row of the sales data to a new sales list object.
 
 Manipulate the Data
-Complete the following:
+
+### Complete the following:
 
 Initialize an empty report dictionary to hold the future aggregated per-product results. The report dictionary will eventually contain the following metrics:
 
@@ -139,7 +141,7 @@ soft-shell miso crab ramen {'01-count': 9130, '02-revenue': 127820.0, '03-cogs':
 burnt garlic tonkotsu ramen {'01-count': 9070, '02-revenue': 126980.0, '03-cogs': 54420.0, '04-profit': 72560.0}
 vegetarian curry + king trumpet mushroom ramen {'01-count': 8824, '02-revenue': 114712.0, '03-cogs': 61768.0, '04-profit': 52944.0}
 
-Resources
+### Resources
 
 Stack Overflow: A wealth of community-driven questions and answers, particularly effective for IT solution seekers.
 
