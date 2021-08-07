@@ -55,8 +55,11 @@ Your final script should print the analysis to the terminal and export a text fi
 
 ### Background
 Welcome to Ichiban Ramen!
+
 Opening a ramen shop has always been your dream, and now it's finally been realized––you're closing out on your second year of sales! Like last year, you need to analyze your business's financial performance by cross-referencing your sales data with your internal menu data to figure out revenues and costs for the year.
+
 This year, you also want to analyze how well your business did on a per-product basis (as you have several choices of ramen) in order to better understand which products are doing well, which are doing poorly, and, ultimately, which products may need to be removed or changed.
+
 You tried doing this type of per-product analysis last year in Excel, but you were not able to keep your reports up-to-date with your current sales data. Therefore, you need to innovate. With more customers and more data to process, you'll need a tool that will allow you to automate your calculations in a manner that scales with your business.
 
 Enter Python! Python provides a wide range of capabilities for handling data, harnessing the power of low-level Python data structures and high-level development libraries, all the while supporting the automation and scalability needs for a growing enterprise.
@@ -75,17 +78,17 @@ Complete the following:
 
 - Read in `menu_data.csv` and set its contents to a separate list object. (This way, you can cross-reference your menu data with your sales data as you read in your sales data in the coming steps.)
 
-  - Initialize an empty `menu` list object to hold the contents of menu_data.csv.
+  - Initialize an empty `menu` list object to hold the contents of `menu_data.csv`.
 
-  - Use a `with` statement and open the menu_data.csv by using its file path.
+  - Use a `with` statement and open the `menu_data.csv` by using its file path.
 
-  - Use the `reader` function from the csv library to begin reading menu_data.csv.
+  - Use the `reader` function from the `csv` library to begin reading `menu_data.csv`.
 
   - Use the `next` function to skip the header (first row of the CSV).
 
-  - Loop over the rest of the rows and append every row to the menu list object (the outcome will be a list of lists).
+  - Loop over the rest of the rows and append every row to the `menu`list object (the outcome will be a list of lists).
 
-- Set up the same process to read in sales_data.csv. However, instead append every row of the sales data to a new sales list object.
+- Set up the same process to read in `sales_data.csv`. However, instead append every row of the sales data to a new sales list object.
 
 ### Manipulate the Data
 
@@ -108,7 +111,7 @@ Complete the following:
     - Quantity
     - Menu_Item
 
-  - Perform a quick check if the sales_item is already included in the report. If not, initialize the key-value pairs for the particular sales_item in the report. Then, set the sales_item as a new key to the report dictionary and the values as a nested dictionary containing the following:
+  - Perform a quick check if the `sales_item` is already included in the `report`. If not, initialize the key-value pairs for the particular `sales_item` in the report. Then, set the `sales_item` as a new key to the `report` dictionary and the values as a nested dictionary containing the following:
 
 """  
 {
@@ -119,7 +122,7 @@ Complete the following:
 }
 """
 
- - Create a nested loop by looping through every record in menu.
+ - Create a nested loop by looping through every record in `menu`.
 
   - For each row of the `menu` data, set the following columns of the menu data to their own variables:
 
@@ -127,7 +130,7 @@ Complete the following:
     - Price
     - Cost
 
-  - If the sales_item in sales is equal to the item in menu, capture the quantity from the sales data and the price and cost from the menu data to calculate the profit for each item.
+  - If the `sales_item` in sales is equal to the `item` in `menu`, capture the `quantity` from the sales data and the price and `cost` from the menu data to calculate the `profit` for each item.
 
     - Cumulatively add the values to the corresponding metrics in the report like so:
 
@@ -140,7 +143,7 @@ report[sales_item]["04-profit"] += profit * quantity
 
 Else print the message "{sales_item} does not equal {item}! NO MATCH!".
 
-- Write out the contents of the `report` dictionary to a text file. The report should output each ramen type as the keys and 01-count, 02-revenue, 03-cogs, and 04-profit metrics as the values for every ramen type as shown:
+- Write out the contents of the `report` dictionary to a text file. The report should output each ramen type as the keys and `01-count`, `02-revenue`, `03-cogs`, and `04-profit` metrics as the values for every ramen type as shown:
 
 """
 spicy miso ramen {'01-count': 9238, '02-revenue': 110856.0, '03-cogs': 46190.0, '04-profit': 64666.0}
@@ -190,9 +193,9 @@ vegetarian curry + king trumpet mushroom ramen {'01-count': 8824, '02-revenue': 
 
 **To receive all points, you must:**
 
-- Create a GitHub repo named: python-homework. (10 points)
+- Create a GitHub repo named: `python-homework`. (10 points)
 - Create a directory within your repository to store the activity. (5 points)
-- Add a notebook file named main.ipynb to your directory. (10 points)
+- Add a notebook file named `main.ipynb` to your directory. (10 points)
 - Update the repository with your latest changes. (10 points)
 
 ### Analysis and Calculations (35 points)
