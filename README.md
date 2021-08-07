@@ -27,7 +27,6 @@ Your task is to create a Python script that analyzes the records to calculate ea
 
 * The greatest increase in profits (date and amount) over the entire period.
 
-
 * The greatest decrease in losses (date and amount) over the entire period.
 
 * Your resulting analysis should look similar to the following:
@@ -65,6 +64,8 @@ In this homework assignment, you will need to:
 Instructions
 
 Read the Data 
+
+---
 
 ### Complete the following:
 
