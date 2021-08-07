@@ -82,9 +82,9 @@ Complete the following:
 
 - Set up the same process to read in sales_data.csv. However, instead append every row of the sales data to a new sales list object.
 
-Manipulate the Data
+### Manipulate the Data
 
-### Complete the following:
+Complete the following:
 
 - Initialize an empty report dictionary to hold the future aggregated per-product results. The report dictionary will eventually contain the following metrics:
 
