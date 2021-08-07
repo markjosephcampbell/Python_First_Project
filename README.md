@@ -128,11 +128,11 @@ Complete the following:
 
  - Create a nested loop by looping through every record in `menu`.
 
-  - For each row of the `menu` data, set the following columns of the menu data to their own variables:
+   - For each row of the `menu` data, set the following columns of the menu data to their own variables:
 
-    - Item
-    - Price
-    - Cost
+     - Item
+     - Price
+     - Cost
 
   - If the `sales_item` in sales is equal to the `item` in `menu`, capture the `quantity` from the sales data and the price and `cost` from the menu data to calculate the `profit` for each item.
 
