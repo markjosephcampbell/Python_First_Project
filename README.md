@@ -63,9 +63,9 @@ In this homework assignment, you will need to:
 ---
 Instructions
 
-Read the Data 
-
 ---
+
+Read the Data 
 
 ### Complete the following:
 
