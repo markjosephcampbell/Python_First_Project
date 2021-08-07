@@ -33,7 +33,6 @@ The greatest decrease in losses (date and amount) over the entire period.
 Your resulting analysis should look similar to the following:
 
 ## Financial Analysis
-
 ----------------------------
 Total Months: 86
 
