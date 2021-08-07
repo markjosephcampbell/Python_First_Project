@@ -143,7 +143,7 @@ vegetarian curry + king trumpet mushroom ramen {'01-count': 8824, '02-revenue': 
 
 ### Resources
 
-Stack Overflow: A wealth of community-driven questions and answers, particularly effective for IT solution seekers.
+[Stack Overflow: A wealth of community-driven questions and answers, particularly effective for IT solution seekers.](https://stackoverflow.com/)
 
 Python Basics: Contains example materials and exercises for the Python 3 programming language.
 
