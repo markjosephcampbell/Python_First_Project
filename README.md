@@ -48,7 +48,7 @@ Greatest Decrease in Profits: Sep-2013 ($-2196167)
 Your final script should print the analysis to the terminal and export a text file with the results.
 
 ## PyRamen (Optional)
-![Ramen]ramen.jpg)
+![Ramen](ramen.jpg)
 
 ### Background
 Welcome to Ichiban Ramen!
