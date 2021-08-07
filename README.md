@@ -116,9 +116,13 @@ Complete the following:
 """  
 {
 "01-count": 0,
+
 "02-revenue": 0,
+
 "03-cogs": 0,
+
 "04-profit": 0,
+
 }
 """
 
