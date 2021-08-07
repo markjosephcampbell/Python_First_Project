@@ -108,8 +108,8 @@ Complete the following:
 
    - For each row of the `sales` data, set the following columns of the sales data to their own variables:
 
-    - Quantity
-    - Menu_Item
+      - Quantity
+      - Menu_Item
 
   - Perform a quick check if the `sales_item` is already included in the `report`. If not, initialize the key-value pairs for the particular `sales_item` in the report. Then, set the `sales_item` as a new key to the `report` dictionary and the values as a nested dictionary containing the following:
 
