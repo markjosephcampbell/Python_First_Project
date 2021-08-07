@@ -129,9 +129,10 @@ report[sales_item]["02-revenue"] += price * quantity
 report[sales_item]["03-cogs"] += cost * quantity
 report[sales_item]["04-profit"] += profit * quantity
 
-    - Else print the message "{sales_item} does not equal {item}! NO MATCH!".
+Else print the message "{sales_item} does not equal {item}! NO MATCH!".
 
 - Write out the contents of the report dictionary to a text file. The report should output each ramen type as the keys and 01-count, 02-revenue, 03-cogs, and 04-profit metrics as the values for every ramen type as shown:
+- 
 spicy miso ramen {'01-count': 9238, '02-revenue': 110856.0, '03-cogs': 46190.0, '04-profit': 64666.0}
 tori paitan ramen {'01-count': 9156, '02-revenue': 119028.0, '03-cogs': 54936.0, '04-profit': 64092.0}
 truffle butter ramen {'01-count': 8982, '02-revenue': 125748.0, '03-cogs': 62874.0, '04-profit': 62874.0}
