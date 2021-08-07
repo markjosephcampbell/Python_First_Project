@@ -168,9 +168,9 @@ vegetarian curry + king trumpet mushroom ramen {'01-count': 8824, '02-revenue': 
 
 ### Submission
 
-Upload homework files to your GitHub repo.
+- Upload homework files to your GitHub repo.
 
-Submit the link to your GitHub repo on Bootcamp Spot.
+- Submit the link to your GitHub repo on Bootcamp Spot.
 
 ### Requirements
 
