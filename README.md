@@ -59,7 +59,7 @@ In this homework assignment, you will need to:
 
 1. Read the Data
 
-2 .Manipulate the Data
+2. Manipulate the Data
 
 Instructions
 
