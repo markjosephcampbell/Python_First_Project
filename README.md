@@ -176,7 +176,7 @@ vegetarian curry + king trumpet mushroom ramen {'01-count': 8824, '02-revenue': 
 
 ### Set Up Project  (35 points)
 
-* To receive all points, you must:*
+*To receive all points, you must:*
 
 - Create a GitHub repo named: python-homework. (10 points)
 - Create a directory within your repository to store the activity. (5 points)
