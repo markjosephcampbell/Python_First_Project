@@ -113,7 +113,7 @@ Complete the following:
 
   - Perform a quick check if the `sales_item` is already included in the `report`. If not, initialize the key-value pairs for the particular `sales_item` in the report. Then, set the `sales_item` as a new key to the `report` dictionary and the values as a nested dictionary containing the following:
 
-"""  
+```python  
 {
 "01-count": 0,
 
@@ -124,7 +124,7 @@ Complete the following:
 "04-profit": 0,
 
 }
-"""
+```
 
  - Create a nested loop by looping through every record in `menu`.
 
@@ -138,14 +138,14 @@ Complete the following:
 
       - Cumulatively add the values to the corresponding metrics in the report like so:
 
-"""
+```
 report[sales_item]["01-count"] += quantity
 report[sales_item]["02-revenue"] += price * quantity
 report[sales_item]["03-cogs"] += cost * quantity
 report[sales_item]["04-profit"] += profit * quantity
-"""
+```
 
-    - Else print the message "{sales_item} does not equal {item}! NO MATCH!".
+   - Else print the message "{sales_item} does not equal {item}! NO MATCH!".
 
 - Write out the contents of the `report` dictionary to a text file. The report should output each ramen type as the keys and `01-count`, `02-revenue`, `03-cogs`, and `04-profit` metrics as the values for every ramen type as shown:
 
